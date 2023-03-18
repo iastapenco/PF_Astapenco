@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    margin: 0 10px;
+
+    header {
+        font-family: 'Montserrat', sans-serif;
+        font-size: small;
+    }
+
+    .nav {
+        border-radius: 8px;
+    }
+
+    table {
+        border-collapse: collapse;
+
+        th,
+        td {
+            border: solid 1.5px #fff;
+            text-align: center;
+        }
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    .display-6 {
+        font-size: 1.5rem;
+    }
+
+    .grid-container {
+        div {
+            h4 {
+                font-size: 13px;
+            }
+        }
+    }
+
+}

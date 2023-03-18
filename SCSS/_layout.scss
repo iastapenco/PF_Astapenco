@@ -1,0 +1,94 @@
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mensaje {
+    width: 70%;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+}
+
+#menu {
+    @extend .flex-container1;
+    justify-content: center;
+    margin: 10px 15px;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+
+            a {
+                @include flex-column-center;
+                text-decoration: none;
+                text-align: center;
+                padding: 0;
+            }
+        }
+    }
+}
+
+section {
+    @include flex-column-center;
+    display: flex;
+    flex-direction: column;
+
+    .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+table {
+    margin: 0 auto;
+}
+
+.iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+div {
+    form {
+        position: relative;
+        left: 33.33%;
+    }
+}
+
+#titulo,
+#titulo4,
+#titulo5,
+#titulo3,
+#titulo2 {
+    @include flex-column-center;
+}
+
+.vacio {
+    display: block;
+    height: 39px;
+}

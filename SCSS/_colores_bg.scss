@@ -1,0 +1,82 @@
+$bg-nav-footer: #434343;
+
+$font-color: #fff;
+
+$colorhover: #67d2ff;
+
+$color-link: #eee;
+
+body {
+    background-color: #222;
+    color: $font-color;
+}
+
+.nav {
+    background-color: $bg-nav-footer;
+}
+
+table {
+    border-color: whitesmoke;
+
+    th {
+        background-color: darkgrey;
+    }
+
+    tr:hover {
+        background-color: $colorhover;
+        transition: .4s;
+    }
+
+}
+
+.form {
+    background: url("../media/c3po.webp") no-repeat;
+    background-size: cover;
+
+    label {
+        color: $font-color;
+    }
+
+    button:hover {
+        color: #451a2b;
+    }
+
+    .button {
+        cursor: pointer;
+        border-bottom: #222 outset;
+    }
+}
+
+a,
+.nav-link {
+    cursor: pointer;
+
+    &:link {
+        color: $color-link;
+    }
+
+    &:visited {
+        color: $color-link;
+    }
+
+    &:hover {
+        color: $colorhover;
+        transition: .4s;
+    }
+}
+
+p {
+    color: $font-color;
+}
+
+footer {
+    background-color: $bg-nav-footer;
+    border-radius: 1px solid $bg-nav-footer;
+    color: $font-color;
+}
+
+.yoda {
+    width: 480px;
+    height: 320px;
+    margin-right: 10px;
+}
