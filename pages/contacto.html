@@ -113,23 +113,32 @@
     </h3>
 
     <form class="form container" action="#" method="get" enctype="text/plain">
-        <label for="nombre">
-            Nombre
-        </label> <br>
-        <input type="text" id="nombre" name="nombre" placeholder="Nombre" /> <br>
-        <label for="email">email </label> <br>
-        <input type="email" id="email" name="email" placeholder="email" /> <br>
-        <label for="mensaje">Mensaje</label> <br>
-        <textarea id="mensaje" name="mensaje" rows="8" placeholder="Escribe tu mensaje"></textarea> <br>
-        <button class="button" type="submit">Enviar</button>
-        <button class="button" type="reset">Limpiar formulario</button>
+        <div class="mb-3">
+            <label class="form-label" for="nombre"> Nombre</label>
+            <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="email">email </label>
+            <input class="col-6 form-control" type="email" id="email" name="email" placeholder="email" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="mensaje">Mensaje</label>
+            <textarea class=" form-control" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-sm btn-secondary mb-3" type="submit">Enviar</button>
+            <button class="btn btn-sm btn-secondary mb-3" type="reset">Limpiar formulario</button>
+        </div>
     </form>
     </div>
     <hr>
     <footer class="grid-container">
         <div>
             <h4>Sitio oficial</h4>
-            <a target="_blank" href="https://www.starwars.com/"><img src="../media/logo.jpg" / width="75px"></a>
+            <a target="_blank" href="https://www.starwars.com/"><img src="../media/logo.jpg" width="75px"></a>
         </div>
 
         <nav>
