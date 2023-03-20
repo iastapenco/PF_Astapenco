@@ -212,17 +212,22 @@ table tr:hover {
   transition: 0.4s;
 }
 
+.form {
+  background-image: url(../media/c3po.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 label {
   color: #fff;
 }
 
-button:hover {
-  color: #451a2b;
+.btn:hover {
+  color: #67d2ff;
 }
 
-.button {
+.btn {
   cursor: pointer;
-  border-bottom: #222 outset;
 }
 
 a,
