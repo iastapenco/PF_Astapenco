@@ -121,12 +121,11 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: flex;
-  flex-direction: column;
 }
 section .col-md-4 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -213,17 +212,15 @@ table tr:hover {
   transition: 0.4s;
 }
 
-.form {
-  background: url("../media/c3po.webp") no-repeat;
-  background-size: cover;
-}
-.form label {
+label {
   color: #fff;
 }
-.form button:hover {
+
+button:hover {
   color: #451a2b;
 }
-.form .button {
+
+.button {
   cursor: pointer;
   border-bottom: #222 outset;
 }
